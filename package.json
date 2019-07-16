@@ -1,0 +1,45 @@
+{
+  "name": "react-pixi-fiber-broken-test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@testing-library/react": "8.0.5",
+    "@types/jest": "^24.0.15",
+    "canvas": "2.5.0",
+    "jest": "^24.8.0",
+    "jest-environment-jsdom-fourteen": "^0.1.0",
+    "pixi.js": "5.0.4",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-pixi-fiber": "0.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "babelConfig": true
+      }
+    },
+    "testEnvironment": "jest-environment-jsdom-fourteen"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
